@@ -21,6 +21,7 @@ import LastIndexOf from "./components/stringMethods/LastIndexOf";
 import Length from "./components/stringMethods/Length";
 import ChainedLogic from "./components/stringMethods/ChainedLogic";
 import { AllArray } from "./components/arrayMethods/AllArray";
+import AllObjects from "./components/objectMethods/AllObjects";
 
 const App = () => {
   return (
@@ -41,7 +42,7 @@ const App = () => {
       {/* <ChainedLogic /> */}
 
       {/* Array Methods  */}
-      <AllArray />
+      {/* <AllArray /> */}
       {/* <Reduce /> */}
       {/* <Some /> */}
       {/* <Repeat /> */}
@@ -49,6 +50,9 @@ const App = () => {
       {/* <IndexOf /> */}
       {/* <LastIndexOf /> */}
       {/* <Length /> */}
+
+      {/* Object Methods  */}
+      <AllObjects />
     </div>
   );
 };
